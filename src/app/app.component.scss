@@ -1,0 +1,29 @@
+.mat-app-background {
+  position: relative;
+  height: 100%;
+}
+
+mat-sidenav-container {
+  height: 100%;
+  display: block;
+}
+
+mat-sidenav.mat-drawer.mat-sidenav {
+  background-color: #323b40;
+  color: #fff;
+  width: 300px;
+  padding-top: 40px;
+}
+.mat-form-field {
+  border-bottom: 1px solid;
+  margin-bottom: 17px;
+}
+
+::ng-deep{
+  span.mat-option-text {
+    background: #fff;
+    border-radius: 1px;
+    padding: 9px;
+  }
+
+}
